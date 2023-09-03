@@ -47,7 +47,7 @@ export abstract class Command<ArgT extends unknown[] = never[]> {
     protected requiresProject = true;
 
     /** Throw an Error if workspace is not trusted before executing command */
-    protected requiresTrust = true;
+    protected requiresTrust = false;
 
     protected project?: AppLauncher;
 

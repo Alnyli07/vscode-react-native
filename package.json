@@ -1301,7 +1301,7 @@
       "description": "%reactNative.virtualWorkspaces.description%"
     },
     "untrustedWorkspaces": {
-      "supported": "limited",
+      "supported": true,
       "description": "%reactNative.workspaceTrust.description%"
     }
   },
